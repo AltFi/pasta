@@ -1,0 +1,33 @@
+# --- Client (Electron/TS) build output ---
+Client/node_modules/
+Client/dist/
+Client/release/
+
+# Copied engine build (regenerated from Pulse/ on every build) -- keep injector.exe, it's a checked-in binary
+Client/resources/Module.dll
+Client/resources/Module.pdb
+Client/resources/*.log
+
+# --- Native (C++/MSVC) build output ---
+Pulse/x64/
+Pulse/Pulse/x64/
+Pulse/YuB-X-Module/x64/
+**/*.obj
+**/*.ilk
+**/*.exp
+**/*.lib
+**/*.pdb
+**/*.iobj
+**/*.ipdb
+**/*.tlog
+
+# Visual Studio user/cache files
+.vs/
+*.vcxproj.user
+
+# Runtime debug log written next to the client exe
+debug.log
+
+# Misc OS/editor noise
+Thumbs.db
+.DS_Store
